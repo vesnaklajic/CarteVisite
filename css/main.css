@@ -1,0 +1,69 @@
+@charset "UTF-8";
+div{
+	margin:0;
+	padding:0;
+}
+#wrapp{
+	background-image:url(../photo/breza.jpg);
+	margin-left:auto;
+	margin-right:auto;
+	width:960px;
+	height:900px;
+	padding-left:20px;
+	padding-right:20px;
+}
+#up{
+	padding-left:20px;
+	padding-right:20px;
+	margin-right:20px;
+	margin-left:20px;
+	width:900px;
+	height:60px;
+	text-align:right;
+}
+#mid{
+	text-align:center;
+	}
+h1{
+	color:#e6e8ff;
+	font-style:Tahoma;
+}
+h2{
+	color:#263969;
+	font-style:Tahoma;
+}
+h3
+{
+	color:#263969;
+	font-style:Tahoma;
+}
+h4{
+	color:#263969;
+	font-style:Tahoma;
+}
+table.tabCom tr {	
+	 text-align: left;
+	 	}
+
+#socmed{
+	text-aligne:right;
+}
+
+#listcom li{
+	display:inline; 
+}
+ul:before{
+	content:attr(aria-label);
+    font-size:120%;
+    font-weight:bold;
+    margin-left:-15px;
+    color:#263969;
+	font-style:Tahoma;
+}
+	
+}
+#b1{
+	font-color:gold;
+	
+}
+
