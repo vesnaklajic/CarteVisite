@@ -1,69 +1,122 @@
 @charset "UTF-8";
-div{
-	margin:0;
-	padding:0;
-}
-#wrapp{
-	background-image:url(../photo/breza.jpg);
-	margin-left:auto;
-	margin-right:auto;
-	width:960px;
-	height:900px;
-	padding-left:20px;
-	padding-right:20px;
-}
-#up{
-	padding-left:20px;
-	padding-right:20px;
-	margin-right:20px;
-	margin-left:20px;
-	width:900px;
-	height:60px;
-	text-align:right;
-}
-#mid{
-	text-align:center;
-	}
-h1{
-	color:#e6e8ff;
-	font-style:Tahoma;
-}
-h2{
-	color:#263969;
-	font-style:Tahoma;
-}
-h3
-{
-	color:#263969;
-	font-style:Tahoma;
-}
-h4{
-	color:#263969;
-	font-style:Tahoma;
-}
-table.tabCom tr {	
-	 text-align: left;
-	 	}
 
-#socmed{
-	text-aligne:right;
+* {
+	margin: 0;
+	paddding: 0;
 }
 
-#listcom li{
-	display:inline; 
-}
-ul:before{
-	content:attr(aria-label);
-    font-size:120%;
-    font-weight:bold;
-    margin-left:-15px;
-    color:#263969;
-	font-style:Tahoma;
-}
-	
-}
-#b1{
-	font-color:gold;
-	
+@font-face {
+	font-family: dvogue;
+	src: url(../Vogue.ttf);
 }
 
+body {
+	font-family: dvogue;
+	background-image: url(../photo/breza.jpg);
+}
+
+#wrapp {
+	background-width: 90%;
+	margin: 0 auto;
+}
+
+header {
+	background: white;
+}
+
+header h1 {
+	float: left;
+	font-size: 3em;
+	margin-left: 250px;
+	margin-top: 20px;
+}
+
+header ul {
+	float: right;
+	list-style: none;
+}
+
+header ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+header ul li:hover {
+	cursor: pointer;
+}
+
+.clr {
+	clear: both;
+}
+
+nav {
+	font: Tahoma;
+	color: white;
+	margin-right: 300px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 50px;
+	font-size: 1.2em;
+	height: 20px;
+	line-height: 20px;
+	font-size: 1.1em;
+}
+
+nav ul li:hover {
+	color: orange;
+	cursor: pointer;
+}
+
+article {
+	margin: 50px auto;
+}
+
+section {
+	text-align: center;
+}
+
+section h2 {
+	margin-top: 20px;
+	font-size: 2em;
+}
+
+section ul {
+	list-style: none;
+	margin-top: 40px;
+}
+
+section ul li {
+	height: 20px;
+	line-height: 20px;
+	font-size: 1.1em;
+	padding-top: 10px;
+}
+
+section ul li:first-child {
+	font-size: 1.5em;
+}
+
+.hr {
+	width: 70%;
+	border-bottom: 1px solid white;
+	box-shadow: 1px 1px 1px grey;
+	margin: 50px auto;
+}
+
+footer {
+	height: 120px;
+	background: DarkSlateBlue;
+	padding-top: 30;
+	text-align: center;
+}
+
+footer h1 {
+	padding-top: 20px;
+	color: WhiteSmoke;
+}
